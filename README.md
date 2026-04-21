@@ -93,14 +93,14 @@ response = ft_model.generate(
 
 1. Клонировать репозиторий:
 
-git clone `https://github.com/justverena/Circle_test_task.git`
-cd `Circle_test_task`
+git clone `https://github.com/justverena/FineTuning_Mistral-7B`
+cd `FineTuning_Mistral-7B`
 
 2.	Подготовить окружение:
 
 pip install -r requirements.txt
 
 3.	Запустить ноутбуки по порядку:
-	•	01_data_preparation.ipynb — подготовка датасета
-	•	02_finetuning.ipynb — fine-tuning
-	•	03_evaluation.ipynb — генерация и evaluation
+	•	01_data_preparation.ipynb: подготовка датасета
+	•	02_finetuning.ipynb: fine-tuning
+	•	03_evaluation.ipynb: генерация и evaluation
